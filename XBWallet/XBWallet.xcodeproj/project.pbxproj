@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5259B8C52867225C0059A63A /* AssetsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5259B8BB2867225C0059A63A /* AssetsListView.swift */; };
+		5259B8C62867225C0059A63A /* AssetsSearchRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5259B8BC2867225C0059A63A /* AssetsSearchRowView.swift */; };
+		5259B8C72867225C0059A63A /* SearchAssetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5259B8BD2867225C0059A63A /* SearchAssetsView.swift */; };
+		5259B8C82867225C0059A63A /* CustomAssetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5259B8BE2867225C0059A63A /* CustomAssetsView.swift */; };
+		5259B8C92867225C0059A63A /* AddNFTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5259B8BF2867225C0059A63A /* AddNFTView.swift */; };
+		5259B8CA2867225C0059A63A /* AssetsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5259B8C02867225C0059A63A /* AssetsRowView.swift */; };
+		5259B8CB2867225C0059A63A /* AddAssetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5259B8C12867225C0059A63A /* AddAssetsView.swift */; };
+		5259B8CC2867225C0059A63A /* NFTListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5259B8C22867225C0059A63A /* NFTListView.swift */; };
+		5259B8CD2867225C0059A63A /* AssetsDetailBriefView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5259B8C32867225C0059A63A /* AssetsDetailBriefView.swift */; };
+		5259B8CE2867225C0059A63A /* AssetsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5259B8C42867225C0059A63A /* AssetsDetailView.swift */; };
+		5259B8D02867226B0059A63A /* BriefHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5259B8CF2867226B0059A63A /* BriefHeaderView.swift */; };
+		5259B8D32867229E0059A63A /* AssetsCoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5259B8D22867229E0059A63A /* AssetsCoin.swift */; };
+		5259B8D7286722C20059A63A /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5259B8D6286722C20059A63A /* AccountViewModel.swift */; };
+		5259B8D928672CC50059A63A /* CustomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5259B8D828672CC50059A63A /* CustomNavigationView.swift */; };
+		5259B8DB286730450059A63A /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5259B8DA286730450059A63A /* MenuItem.swift */; };
+		5259B8DD2867398C0059A63A /* CoinApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5259B8DC2867398C0059A63A /* CoinApi.swift */; };
+		5259B8DF28673A420059A63A /* LocalApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5259B8DE28673A420059A63A /* LocalApi.swift */; };
+		5277F30F2865641E009008A6 /* XBWalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5277F30E2865641E009008A6 /* XBWalletApp.swift */; };
+		5277F3112865641E009008A6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5277F3102865641E009008A6 /* HomeView.swift */; };
+		5277F3132865641F009008A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5277F3122865641F009008A6 /* Assets.xcassets */; };
+		5277F3162865641F009008A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5277F3152865641F009008A6 /* Preview Assets.xcassets */; };
+		5277F3212865641F009008A6 /* XBWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5277F3202865641F009008A6 /* XBWalletTests.swift */; };
+		5277F32C2865641F009008A6 /* XBWalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5277F32B2865641F009008A6 /* XBWalletUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5277F31D2865641F009008A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5277F3032865641E009008A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5277F30A2865641E009008A6;
+			remoteInfo = XBWallet;
+		};
+		5277F3282865641F009008A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5277F3032865641E009008A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5277F30A2865641E009008A6;
+			remoteInfo = XBWallet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5259B8BB2867225C0059A63A /* AssetsListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetsListView.swift; sourceTree = "<group>"; };
+		5259B8BC2867225C0059A63A /* AssetsSearchRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetsSearchRowView.swift; sourceTree = "<group>"; };
+		5259B8BD2867225C0059A63A /* SearchAssetsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchAssetsView.swift; sourceTree = "<group>"; };
+		5259B8BE2867225C0059A63A /* CustomAssetsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAssetsView.swift; sourceTree = "<group>"; };
+		5259B8BF2867225C0059A63A /* AddNFTView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNFTView.swift; sourceTree = "<group>"; };
+		5259B8C02867225C0059A63A /* AssetsRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetsRowView.swift; sourceTree = "<group>"; };
+		5259B8C12867225C0059A63A /* AddAssetsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAssetsView.swift; sourceTree = "<group>"; };
+		5259B8C22867225C0059A63A /* NFTListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFTListView.swift; sourceTree = "<group>"; };
+		5259B8C32867225C0059A63A /* AssetsDetailBriefView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetsDetailBriefView.swift; sourceTree = "<group>"; };
+		5259B8C42867225C0059A63A /* AssetsDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetsDetailView.swift; sourceTree = "<group>"; };
+		5259B8CF2867226B0059A63A /* BriefHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BriefHeaderView.swift; sourceTree = "<group>"; };
+		5259B8D22867229E0059A63A /* AssetsCoin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetsCoin.swift; sourceTree = "<group>"; };
+		5259B8D6286722C20059A63A /* AccountViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		5259B8D828672CC50059A63A /* CustomNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationView.swift; sourceTree = "<group>"; };
+		5259B8DA286730450059A63A /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		5259B8DC2867398C0059A63A /* CoinApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinApi.swift; sourceTree = "<group>"; };
+		5259B8DE28673A420059A63A /* LocalApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalApi.swift; sourceTree = "<group>"; };
+		5277F30B2865641E009008A6 /* XBWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XBWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5277F30E2865641E009008A6 /* XBWalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XBWalletApp.swift; sourceTree = "<group>"; };
+		5277F3102865641E009008A6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5277F3122865641F009008A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5277F3152865641F009008A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5277F3172865641F009008A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5277F31C2865641F009008A6 /* XBWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XBWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5277F3202865641F009008A6 /* XBWalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XBWalletTests.swift; sourceTree = "<group>"; };
+		5277F3222865641F009008A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5277F3272865641F009008A6 /* XBWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XBWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5277F32B2865641F009008A6 /* XBWalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XBWalletUITests.swift; sourceTree = "<group>"; };
+		5277F32D2865641F009008A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5277F3082865641E009008A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5277F3192865641F009008A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5277F3242865641F009008A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5259B85E286714BB0059A63A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5259B8E0286743260059A63A /* ViewModel */,
+				5259B8D1286722910059A63A /* Model */,
+				5277F3102865641E009008A6 /* HomeView.swift */,
+				5259B8CF2867226B0059A63A /* BriefHeaderView.swift */,
+				5259B8C12867225C0059A63A /* AddAssetsView.swift */,
+				5259B8BF2867225C0059A63A /* AddNFTView.swift */,
+				5259B8C32867225C0059A63A /* AssetsDetailBriefView.swift */,
+				5259B8C42867225C0059A63A /* AssetsDetailView.swift */,
+				5259B8BB2867225C0059A63A /* AssetsListView.swift */,
+				5259B8C02867225C0059A63A /* AssetsRowView.swift */,
+				5259B8BC2867225C0059A63A /* AssetsSearchRowView.swift */,
+				5259B8BE2867225C0059A63A /* CustomAssetsView.swift */,
+				5259B8C22867225C0059A63A /* NFTListView.swift */,
+				5259B8BD2867225C0059A63A /* SearchAssetsView.swift */,
+				5259B8D828672CC50059A63A /* CustomNavigationView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5259B8D1286722910059A63A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5259B8DA286730450059A63A /* MenuItem.swift */,
+				5259B8D22867229E0059A63A /* AssetsCoin.swift */,
+				5259B8DC2867398C0059A63A /* CoinApi.swift */,
+				5259B8DE28673A420059A63A /* LocalApi.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5259B8E0286743260059A63A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5259B8D6286722C20059A63A /* AccountViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5277F3022865641E009008A6 = {
+			isa = PBXGroup;
+			children = (
+				5277F30D2865641E009008A6 /* XBWallet */,
+				5277F31F2865641F009008A6 /* XBWalletTests */,
+				5277F32A2865641F009008A6 /* XBWalletUITests */,
+				5277F30C2865641E009008A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5277F30C2865641E009008A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5277F30B2865641E009008A6 /* XBWallet.app */,
+				5277F31C2865641F009008A6 /* XBWalletTests.xctest */,
+				5277F3272865641F009008A6 /* XBWalletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5277F30D2865641E009008A6 /* XBWallet */ = {
+			isa = PBXGroup;
+			children = (
+				5277F30E2865641E009008A6 /* XBWalletApp.swift */,
+				5259B85E286714BB0059A63A /* Home */,
+				5277F3122865641F009008A6 /* Assets.xcassets */,
+				5277F3172865641F009008A6 /* Info.plist */,
+				5277F3142865641F009008A6 /* Preview Content */,
+			);
+			path = XBWallet;
+			sourceTree = "<group>";
+		};
+		5277F3142865641F009008A6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5277F3152865641F009008A6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5277F31F2865641F009008A6 /* XBWalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				5277F3202865641F009008A6 /* XBWalletTests.swift */,
+				5277F3222865641F009008A6 /* Info.plist */,
+			);
+			path = XBWalletTests;
+			sourceTree = "<group>";
+		};
+		5277F32A2865641F009008A6 /* XBWalletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5277F32B2865641F009008A6 /* XBWalletUITests.swift */,
+				5277F32D2865641F009008A6 /* Info.plist */,
+			);
+			path = XBWalletUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5277F30A2865641E009008A6 /* XBWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5277F3302865641F009008A6 /* Build configuration list for PBXNativeTarget "XBWallet" */;
+			buildPhases = (
+				5277F3072865641E009008A6 /* Sources */,
+				5277F3082865641E009008A6 /* Frameworks */,
+				5277F3092865641E009008A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XBWallet;
+			productName = XBWallet;
+			productReference = 5277F30B2865641E009008A6 /* XBWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5277F31B2865641F009008A6 /* XBWalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5277F3332865641F009008A6 /* Build configuration list for PBXNativeTarget "XBWalletTests" */;
+			buildPhases = (
+				5277F3182865641F009008A6 /* Sources */,
+				5277F3192865641F009008A6 /* Frameworks */,
+				5277F31A2865641F009008A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5277F31E2865641F009008A6 /* PBXTargetDependency */,
+			);
+			name = XBWalletTests;
+			productName = XBWalletTests;
+			productReference = 5277F31C2865641F009008A6 /* XBWalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5277F3262865641F009008A6 /* XBWalletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5277F3362865641F009008A6 /* Build configuration list for PBXNativeTarget "XBWalletUITests" */;
+			buildPhases = (
+				5277F3232865641F009008A6 /* Sources */,
+				5277F3242865641F009008A6 /* Frameworks */,
+				5277F3252865641F009008A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5277F3292865641F009008A6 /* PBXTargetDependency */,
+			);
+			name = XBWalletUITests;
+			productName = XBWalletUITests;
+			productReference = 5277F3272865641F009008A6 /* XBWalletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5277F3032865641E009008A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					5277F30A2865641E009008A6 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					5277F31B2865641F009008A6 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 5277F30A2865641E009008A6;
+					};
+					5277F3262865641F009008A6 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 5277F30A2865641E009008A6;
+					};
+				};
+			};
+			buildConfigurationList = 5277F3062865641E009008A6 /* Build configuration list for PBXProject "XBWallet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5277F3022865641E009008A6;
+			packageReferences = (
+			);
+			productRefGroup = 5277F30C2865641E009008A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5277F30A2865641E009008A6 /* XBWallet */,
+				5277F31B2865641F009008A6 /* XBWalletTests */,
+				5277F3262865641F009008A6 /* XBWalletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5277F3092865641E009008A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5277F3162865641F009008A6 /* Preview Assets.xcassets in Resources */,
+				5277F3132865641F009008A6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5277F31A2865641F009008A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5277F3252865641F009008A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5277F3072865641E009008A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5259B8C62867225C0059A63A /* AssetsSearchRowView.swift in Sources */,
+				5259B8C72867225C0059A63A /* SearchAssetsView.swift in Sources */,
+				5259B8CD2867225C0059A63A /* AssetsDetailBriefView.swift in Sources */,
+				5259B8D32867229E0059A63A /* AssetsCoin.swift in Sources */,
+				5259B8C52867225C0059A63A /* AssetsListView.swift in Sources */,
+				5259B8CB2867225C0059A63A /* AddAssetsView.swift in Sources */,
+				5259B8D02867226B0059A63A /* BriefHeaderView.swift in Sources */,
+				5259B8C92867225C0059A63A /* AddNFTView.swift in Sources */,
+				5259B8CA2867225C0059A63A /* AssetsRowView.swift in Sources */,
+				5259B8D928672CC50059A63A /* CustomNavigationView.swift in Sources */,
+				5259B8D7286722C20059A63A /* AccountViewModel.swift in Sources */,
+				5277F3112865641E009008A6 /* HomeView.swift in Sources */,
+				5259B8C82867225C0059A63A /* CustomAssetsView.swift in Sources */,
+				5277F30F2865641E009008A6 /* XBWalletApp.swift in Sources */,
+				5259B8DB286730450059A63A /* MenuItem.swift in Sources */,
+				5259B8CE2867225C0059A63A /* AssetsDetailView.swift in Sources */,
+				5259B8DF28673A420059A63A /* LocalApi.swift in Sources */,
+				5259B8DD2867398C0059A63A /* CoinApi.swift in Sources */,
+				5259B8CC2867225C0059A63A /* NFTListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5277F3182865641F009008A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5277F3212865641F009008A6 /* XBWalletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5277F3232865641F009008A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5277F32C2865641F009008A6 /* XBWalletUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5277F31E2865641F009008A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5277F30A2865641E009008A6 /* XBWallet */;
+			targetProxy = 5277F31D2865641F009008A6 /* PBXContainerItemProxy */;
+		};
+		5277F3292865641F009008A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5277F30A2865641E009008A6 /* XBWallet */;
+			targetProxy = 5277F3282865641F009008A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5277F32E2865641F009008A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5277F32F2865641F009008A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5277F3312865641F009008A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"XBWallet/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = XBWallet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XB.XBWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5277F3322865641F009008A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"XBWallet/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = XBWallet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XB.XBWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5277F3342865641F009008A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XBWalletTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XB.XBWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XBWallet.app/XBWallet";
+			};
+			name = Debug;
+		};
+		5277F3352865641F009008A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XBWalletTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XB.XBWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XBWallet.app/XBWallet";
+			};
+			name = Release;
+		};
+		5277F3372865641F009008A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XBWalletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XB.XBWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XBWallet;
+			};
+			name = Debug;
+		};
+		5277F3382865641F009008A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XBWalletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XB.XBWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XBWallet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5277F3062865641E009008A6 /* Build configuration list for PBXProject "XBWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5277F32E2865641F009008A6 /* Debug */,
+				5277F32F2865641F009008A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5277F3302865641F009008A6 /* Build configuration list for PBXNativeTarget "XBWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5277F3312865641F009008A6 /* Debug */,
+				5277F3322865641F009008A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5277F3332865641F009008A6 /* Build configuration list for PBXNativeTarget "XBWalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5277F3342865641F009008A6 /* Debug */,
+				5277F3352865641F009008A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5277F3362865641F009008A6 /* Build configuration list for PBXNativeTarget "XBWalletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5277F3372865641F009008A6 /* Debug */,
+				5277F3382865641F009008A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5277F3032865641E009008A6 /* Project object */;
+}
