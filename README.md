@@ -17,11 +17,7 @@ The best way to submit feedback and report bugs is to open a GitHub issue. Pleas
 
 
 ## Image
-![image](https://wx3.sinaimg.cn/orj360/005OjsLDgy1h3kzgh7ecij30n01ds0x5.jpg)
-
-![image](https://wx1.sinaimg.cn/orj360/005OjsLDgy1h3kzghuuy7j30n01dstb9.jpg)
-
-![image](https://wx3.sinaimg.cn/orj360/005OjsLDgy1h3kzgiqosjj30n01dsgp4.jpg)
+![image](https://wx3.sinaimg.cn/orj360/005OjsLDgy1h3kzgh7ecij30n01ds0x5.jpg)![image](https://wx1.sinaimg.cn/orj360/005OjsLDgy1h3kzghuuy7j30n01dstb9.jpg)![image](https://wx3.sinaimg.cn/orj360/005OjsLDgy1h3kzgiqosjj30n01dsgp4.jpg)
 
 
 ## Meta
