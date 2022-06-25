@@ -22,9 +22,6 @@ class XBWalletUITests: XCTestCase {
         let app = XCUIApplication()
         app.launch()
     
-        CoinApi.btcStatus(crypto: "BTC") { price in
-           
-        }
 
     }
 
